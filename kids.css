@@ -1,0 +1,102 @@
+.abhishek {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.abhi {
+    width: 100%;
+    height: 200px;
+    font-size: 30px;
+    color: cornsilk;
+    background-color: darkslategray;
+}
+
+.home {
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+}
+
+.home button {
+    background: gray;
+    color: yellow;
+    padding: 10px;
+    width: 100%;
+    margin: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    animation: animate 1s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        transform: scale(1.1);
+    }
+    50% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+.abhi h1 {
+    text-align: center;
+}
+
+.abhi p {
+    text-align: center;
+}
+
+#man {
+    padding: 80px 0px;
+    text-align: center;
+}
+
+#man .abhi {
+    font-size: 50px;
+}
+
+.man-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.man-box {
+    flex-basis: 30%;
+    box-shadow: 1px 2px 3px gray;
+    padding: 10px;
+    text-align: center;
+}
+
+.man-box img {
+    width: 100%;
+}
+
+.man-box h2 {
+    margin: 10px 0px;
+}
+
+.man-box h3 {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.man-box:hover {
+    transform: translateY(-20px);
+    transition: 0.4s ease-in;
+}
+
+#footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}

@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(230, 157, 245);
+}
+
+center h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(110, 57, 57);
+    margin-top: 5PX;
+    padding: 10px;
+}
+
+.abhi {
+    background: rgb(100, 72, 72, 0.1);
+    width: 50%;
+    height: 300px;
+    margin: auto;
+    margin-top: 140px;
+    padding: 30px 20pz;
+    color: black;
+    border-radius: 2px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: none;
+    margin: 10px 20px;
+    width: 80%;
+}
+
+input[type="password"] {
+    padding: 10px;
+    border: none;
+    margin: 10px 20px;
+    width: 80%;
+}
+
+input[type="checkbox"] {
+    padding: 10px;
+    border: none;
+    margin: 10px 20px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    background: black;
+    width: 50%;
+    height: 30px;
+    margin: 10px 20px;
+}
+
+a {
+    color: green;
+    font-size: 20px;
+}
+
+a:hover {
+    color: crimson
+}
+
+#btn1 {
+    width: 10%
+}

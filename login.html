@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>my lofin form</title>
+</head>
+<center>
+    <div class="abhi">
+        <h1>Login/Create Your Account</h1>
+        username: <input type="text" name="text" id="user"> <br> password: <input type="password" name="text" id="pass"><br>
+        <a href="#">forgot password</a>
+        <button onclick="form()">Login</button>
+        <a href="eshop.html "><button id="btn1">Home</button></a>
+    </div>
+</center>
+<script>
+    function form() {
+        var uname = document.getElementById("user").value;
+        var pass = document.getElementById("pass").value;
+        if (uname == "abhishek" && pass == "abhishek@123") {
+            location.assign("file:///C:/xampp/htdocs/mycode/submit.html");
+        } else {
+            window.alert("invalid password-login failed");
+        }
+    }
+</script>
+
+<body>
+
+</body>
+
+</html>
